@@ -17,7 +17,7 @@ auth.set_access_token(Access_token, Access_token_secret)
 
 api = tweepy.API(auth,wait_on_rate_limit=True)
 
-tweets=tweepy.Cursor(api.search,q="Brexit",lang='en', since='2018-05-01').items(100000)
+tweets=tweepy.Cursor(api.search,q="Brexit",lang='en', since='2018-01-01').items(100000)
 
 for tweet in tweets:
     tweetlist.append(tweet.text)

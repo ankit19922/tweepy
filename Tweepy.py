@@ -5,10 +5,10 @@ import os
 tweetlist=[]
 tweet_type=[]
 
-Access_token = "1088749854774517760-cRbYAgEMeUeuwhVR6s8oHaXrKBRh32"
-Access_token_secret = "llBKfHQqgKEM1WqAadrLjYuuNFJIS3sgDElwiHTRXLRs3"
-Consumer_key = "EazL5W6t9GOMpZj243UEEKyvI"
-Consumer_secret_key = "SSP33bWsIyQTRA17Lnb36oBL8YoWbZbJfYjGWmtQxTpP4XqtxO"
+Access_token = "1088749854774517760-cYAgEMeeuwhVR6s8oHaXrKBRh32"
+Access_token_secret = "llBKfHQqgKEM1WqALjYuuNFJIS3sgDElwiHTRXLRs3"
+Consumer_key = "EazL5W6t9GOMpZj243KyvI"
+Consumer_secret_key = "SSP33bWsIyQTRAnb36oBL8YoWbZbJfYjGWmtQxTpP4XqtxO"
 
 auth = tweepy.OAuthHandler(Consumer_key, Consumer_secret_key)
 
